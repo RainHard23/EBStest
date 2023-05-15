@@ -1,0 +1,73 @@
+.cartTable {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cartTable th {
+    padding: 10px;
+    text-align: left;
+}
+.cartTable td {
+    padding: 10px;
+    text-align: left;
+}
+
+.cartTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.cartTable td:first-child {
+    text-transform: capitalize;
+}
+
+.cartTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.cartTable td:last-child {
+    text-align: center;
+}
+
+.cartTable td:last-child > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartTable td:last-child button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cartTable td:last-child button:first-child {
+    background-color: #f44336;
+}
+
+.cartTotal {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.cartTotal span {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cartTotal p {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
